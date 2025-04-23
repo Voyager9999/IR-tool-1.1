@@ -1,1 +1,1 @@
-# Literature Extractor Page (unchanged)
+# 页面逻辑：PDF 抽峰 + rules 多区间匹配 + 描述显示

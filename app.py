@@ -1,7 +1,5 @@
 
 import streamlit as st
-import os
-
 st.set_page_config(page_title="IR Spectrum Tool", layout="wide")
 
 st.sidebar.title("Navigation")

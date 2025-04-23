@@ -1,1 +1,1 @@
-# Spectrum Viewer Page (restored from previous version)
+# 页面逻辑：使用 SmartPeakDetector 自动拾峰、绘图、标注

@@ -1,1 +1,1 @@
-# Structure Identifier Page (restored with peak confirmation + chart)
+# 页面逻辑：使用 SmartPeakDetector 查找峰位 + 滑块确认 + 匹配 rules
