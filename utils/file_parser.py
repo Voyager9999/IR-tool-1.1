@@ -1,1 +1,0 @@
-# Future: support for JCAMP-DX and other formats

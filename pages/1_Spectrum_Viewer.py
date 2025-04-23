@@ -1,1 +1,1 @@
-# 页面逻辑：使用 SmartPeakDetector 自动拾峰、绘图、标注
+# 自动拾峰，绘图标注，使用 SmartPeakDetector

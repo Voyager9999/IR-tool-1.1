@@ -1,1 +1,1 @@
-# 页面逻辑：使用 SmartPeakDetector 查找峰位 + 滑块确认 + 匹配 rules
+# 拾峰确认、滑块定位、规则匹配
