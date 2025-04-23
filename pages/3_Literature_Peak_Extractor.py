@@ -1,1 +1,1 @@
-# Same as previous logic, peak extraction from PDF
+# Literature extraction logic remains unchanged

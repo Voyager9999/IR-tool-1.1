@@ -31,7 +31,8 @@ if st.button("➕ Confirm Peak"):
         memory = sorted(memory, key=lambda p: p["peak"])
         with open("data/memory.json", "w") as f:
             json.dump(memory, f)
-        st.experimental_rerun()
+        st.success("✔ Confirmed. Please refresh the page.")
+        st.stop()
 
 st.subheader("📊 Spectrum + Confirmed Peaks")
 fig = go.Figure()
@@ -53,9 +54,11 @@ if memory:
         memory.pop(idx)
         with open("data/memory.json", "w") as f:
             json.dump(memory, f)
-        st.experimental_rerun()
+        st.success("✔ Deleted. Please refresh the page.")
+        st.stop()
 
 if st.button("🧹 Clear All"):
     with open("data/memory.json", "w") as f:
         json.dump([], f)
-    st.experimental_rerun()
+    st.success("✔ Cleared. Please refresh the page.")
+    st.stop()

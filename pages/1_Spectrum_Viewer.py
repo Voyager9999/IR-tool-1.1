@@ -1,1 +1,1 @@
-# Same as previous, shows IR spectrum with SmartPeakDetector
+# Spectrum Viewer Page - already tested
