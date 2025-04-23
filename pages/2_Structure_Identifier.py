@@ -7,7 +7,6 @@ import os
 
 st.title("🔬 Structure Identifier")
 
-# 初始化 memory 数据
 if "peaks" not in st.session_state:
     if os.path.exists("data/memory.json"):
         with open("data/memory.json") as f:
@@ -50,9 +49,7 @@ if st.session_state["peaks"]:
                              text=[str(int(p)) for p in pxs],
                              name="Confirmed Peaks"))
 
-# 实时垂直线提示
 fig.add_vline(x=picked, line_color="green", line_dash="dash", annotation_text="Selected", annotation_position="top")
-
 fig.update_layout(xaxis_title="Wavenumber (cm⁻¹)", yaxis_title="Absorbance", xaxis=dict(autorange="reversed"))
 st.plotly_chart(fig)
 
