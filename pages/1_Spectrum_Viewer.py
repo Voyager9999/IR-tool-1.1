@@ -1,0 +1,1 @@
+# Spectrum Viewer Page (restored from previous version)

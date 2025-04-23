@@ -1,0 +1,1 @@
+# Structure Identifier Page (restored with peak confirmation + chart)

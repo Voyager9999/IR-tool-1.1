@@ -1,0 +1,11 @@
+
+{
+  "O–H stretch": {
+    "ranges": [[3200, 3600], [3650, 3700]],
+    "description": "O–H group (alcohols, phenols), broad"
+  },
+  "C=O stretch": {
+    "ranges": [[1700, 1750]],
+    "description": "Carbonyl group (ketones, aldehydes, esters)"
+  }
+}
