@@ -1,1 +1,1 @@
-# Literature extraction logic remains unchanged
+# Literature Extractor remains unchanged
